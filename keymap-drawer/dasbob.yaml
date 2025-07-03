@@ -1,5 +1,5 @@
 layers:
-  BASE: [B, L, C, D, V, J, F, O, U, BSPC, N, R, S, T, G, Y, H, E, A, I, X, Q, W, M, Z, K, P, ',', ., /, LCMD, NAVI, LSHFT, SPACE, SYM, RET]
+  BASE: [B, L, C, D, V, J, F, O, U, BSPC, N, R, S, T, G, Y, H, E, A, I, X, Q, W, M, Z, K, P, ',', ., RET, LCMD, NAVI, LSHFT, SPACE, SYM, /]
   NAVI:
   - ESC
   - BT CLR
@@ -38,26 +38,26 @@ layers:
   - KP 0
   - {t: ▽, type: trans}
   SYM:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - AltGr+U
-  - ''''
-  - '"'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - AltGr+A
   - {t: ▽, type: trans}
   - AltGr+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
-  - Sft+AltGr+4
-  - AltGr+5
-  - AltGr+4
-  - AltGr+O
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - AltGr+F18
   - AltGr+F19
   - {t: ▽, type: trans}
@@ -69,7 +69,7 @@ layers:
   - NEXT
   - \
   - {t: ▽, type: trans}
-  - '&gif'
+  - {t: ▽, type: trans}
   - ADJ
   - {t: ▽, type: trans}
   - {t: PP, type: held}
@@ -77,7 +77,7 @@ layers:
   ADJ:
   - '&sys_reset'
   - BT CLR
-  - OUT TOG
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
